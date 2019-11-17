@@ -1,0 +1,51 @@
+<footer id="footer-wrap">
+    <div id="footer" >
+        <div class="content-block">
+            <form id="newsletter-form" method="post" action="" class="d-flex flex-row justify-content-center clearfix">
+                <div id="newsletter-label" class="d-flex flex-column justify-content-center">
+                       {$join.page_content}
+                       <div id="nl-sublabel">{$join.page_name}</div>
+                </div>
+
+                <div id="newsletter-email-wrap">
+                     <input type="email" id="newsletter-email" value="" placeholder="{$email.page_content}"/>
+                    <div>
+                        <label class="inline-agree-label">
+                            <input type="checkbox" name="nl_agree_chk" value="1">
+                            {$secret.page_content}<a target="_blank">{$secret.page_name}</a>
+                        </label>
+                    </div>
+                </div>
+
+                <div id="newsletter-button-wrap">
+                     <a id="newsletter-button" href="#" class="d-flex flex-column justify-content-center"><span>Submit</span></a>
+                </div>
+
+            </form>
+        </div>
+
+        <div  class="content-block">
+             <div id="footer-tags">
+                   <span id="ft-tg-bg"></span>
+                   <volist name="tag" id="v">
+                        <a href="{:U($v['tag_url'])}" title='{$v.tag_name}' class='adobe'><span>{$v.tag_name}</span></a>
+                   </volist>
+            </div>
+
+             <div class="footer-sep"></div>
+        </div>
+
+
+        <nav id="footer-nav-links">
+            <volist name="nav1" id="v">
+                 <a href="{:U($v['nav_url'])}">{$v.nav_name}</a>
+            </volist>
+        </nav>
+
+
+      <div class="footer-copy">{$icp[0].con_value}</div>
+    </div>
+</footer>
+  <script src="__HOME__/wp-content/themes/wdd18/js/global.js-v=2.1.0.js" ></script>
+  </body>
+</html>

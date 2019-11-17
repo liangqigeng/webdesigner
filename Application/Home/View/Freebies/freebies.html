@@ -1,0 +1,33 @@
+<include file="Common:header"/>
+  <div id="main-content-block">     
+      <div class="content-block">
+        <h1 class="archive-title line-title">
+            <span>{$title}</span>
+		</h1>
+      </div>
+      <div class="content-block content-block-archive-list">
+       <div class="wrapper">
+           <div class="content">
+              <div id="all-freebies-list" class="freebies-list d-flex flex-wrap flex-row row">
+
+                    <volist name="banner" id="v">
+                    <div class="freebie-grid-item col-md-4 d-flex flex-column">
+                         <div class="freebie-list-item">
+                              <div class="freebie-col-img-lnk-wrap">
+                                    <a class="freebie-col-img-lnk" href="" >
+                                        <img width="842" height="463" src="__UPLOAD__{$v.banner_path}" class="article-post-img freebie-post-img wp-post-image" alt="Free Download: 30 Script Fonts"/>
+                                    </a>
+                              </div>
+                             <div class="aua-info">
+                                <h2><a class="au-title" href="">{$v.banner_title}</a></h2>
+                             </div>
+                         </div>
+                    </div>
+                   </volist>
+              </div>
+
+           </div> <!-- main-content -->
+       </div> <!-- wrapper -->
+      </div>
+  </div>
+<include file="Common:bottom"/>

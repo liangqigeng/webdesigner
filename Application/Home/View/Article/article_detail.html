@@ -1,0 +1,99 @@
+<include file="Common:header"/>
+    <div class="content-block">
+        <div id="article-header-stub"></div>
+           <div id="article-header-wrap">
+             <div id="article-header">
+                 <div class="content-block ah-cim ah-cim-img" style="background-image:url(__UPLOAD__{$article['art_img']})">
+                     <div class="single-title-im-wrap">
+                         <div class="single-title-im-content clearfix">
+                             <div class="single-title-im-inside clearfix">
+                                 <div class="hp-cat">
+                                    <a class="hp-category" href="{:U('Home/Article/article/cat_id'.$article['cat_id'])}">{$article['cat_name']}</a>
+                                 </div>
+                                <h1 class="single-title">
+                                  <span>
+                                   {$article.art_title}
+                                  </span>
+                                </h1>
+                
+                       <div class="stiw-pinfo clearfix">
+                           <div class="hp-post-pub-info">
+                                 <div class="hp-post-pub-info-content">
+                                           <a  class="hp-author-avatar-lnk"  href="">
+                                                <img src="__UPLOAD__{$article['art_img']}" alt="Suzanne Scacca" class="hpppi-author-avatar" />
+                                           </a>
+                                            <span class="hpppi-author">
+                                                 由<a   href="">{$article.admin_nickname}</a>撰写
+                                            </span>
+                                        <span class="hpppi-separator">&nbsp;|&nbsp;</span>
+                                        <span class="hppi-time">
+                                          <span class="icon-clock-1"></span>
+                                          {$article.art_addtime|date='Y-m-d',###}
+                                          </span>
+
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="overwrap"> 
+        <div class="content-block">
+            <div class="wrapper flex-wrap">
+                <div class="content ">
+           <div class="content-block single-content-block">
+           <div class="entry-content single-content">
+                <div id="article-sticky-stuff">
+
+                      <div class="sticky-shares-wrap">
+                            <div class="sticky-shares" >
+                                <div class="post-share-row psr-color">
+                                  <a onclick="openFbShare(this)"  href="javascript:void(0);"  class="psi-lnk psi-sci psi-fb"><span class="p-share-icon icon-facebook"></span>
+
+                                   </a>
+                                </div>
+
+                                    <div class="post-share-row psr-color">
+                                         <a  href="" onclick="return openTwShare(this); return false;" class="psi-lnk psi-sci psi-tw">
+                                                <span class="p-share-icon icon-twitter"></span>
+                                         </a>
+                                    </div>
+                                    <div class="post-share-row">
+                                      <a href="#comments_section" class="psi-lnk psi-service scroll-to"><span class="p-share-icon icon-comment"></span></a>
+                                    </div>
+                                    <div class="post-share-row">
+                                      <a href="javascript:window.print()" class="psi-lnk psi-service"><span class="p-share-icon icon-print"></span></a>
+                                    </div>
+                                    <div class="post-share-row">
+                                          <a href="mailto:?subject=Check out this article: Are Design Conferences Dead?&body=https://www.webdesignerdepot.com/2019/06/are-design-conferences-dead/" class="psi-lnk psi-service"><span class="p-share-icon icon-mail-alt"></span></a>
+                                    </div>
+                             </div>
+                      </div>
+                </div>
+                    
+                 <div class="single-excerpt">{$article.art_content|html_entity_decode=###}</div>
+                     <div id="after-single">
+                           <div class="post-author-bio clearfix">
+                                <img alt='' src="__UPLOAD__{$article['max_photo']}" class='avatar avatar-114 photo' height='114' width='114' />
+                                <div class="post-author-bio-content" >
+                                    <h2 class="post-author-name">
+                                        <a href="">由{$article.admin_nickname}</a>
+                                    </h2>
+                                </div>
+                           </div>
+                     </div>
+                </div>
+             </div>
+        </div>
+     </div>
+ </div>
+
+ </div>
+
+
+<include file="Common:bottom"/>

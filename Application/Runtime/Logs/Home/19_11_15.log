@@ -1,0 +1,2271 @@
+[ 2019-11-15T00:34:50+08:00 ] 127.0.0.1 /index.php/Home/Article/article/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0010s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `art_id`,`art_title`,`art_addtime` FROM `web_article` ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000447s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000486s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2019-11-15T00:41:12+08:00 ] 127.0.0.1 /index.php/Home/Article/article/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0017s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0007s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `art_id`,`art_title`,`art_addtime` FROM `web_article` ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000555s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2019-11-15T00:41:24+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0007s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0006s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+ERR: Think\Model:alins方法不存在！
+
+[ 2019-11-15T00:41:56+08:00 ] 127.0.0.1 /index.php/Home/Article/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001336s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0010s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0014s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0012s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-11-15T00:42:05+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0009s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+ERR: Think\Model:alins方法不存在！
+
+[ 2019-11-15T00:42:54+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0017s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0008s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0013s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0014s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC  [ RunTime:0.0009s ]
+
+[ 2019-11-15T00:47:04+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000879s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000915s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2019-11-15T01:09:17+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0012s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0009s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0006s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001416s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2019-11-15T01:12:10+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000925s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000965s ]
+NOTIC: [8] Undefined index: thumb_path D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 245 行.
+NOTIC: [8] Undefined index: thumb_path D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 245 行.
+NOTIC: [8] Undefined index: thumb_path D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 245 行.
+NOTIC: [8] Undefined index: thumb_path D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 245 行.
+NOTIC: [8] Undefined index: thumb_path D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 245 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2019-11-15T01:12:51+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000912s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000945s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
+
+[ 2019-11-15T01:14:12+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0011s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0010s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0010s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0007s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001354s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000957s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2019-11-15T01:19:20+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0021s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0007s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0012s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Use of undefined constant article - assumed 'article' (this will throw an Error in a future version of PHP) D:\laragon\www\webdesigner\Application\Home\Controller\IndexController.class.php 第 30 行.
+
+[ 2019-11-15T01:19:37+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0007s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0011s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0011s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-11-15T01:22:06+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0007s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0018s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0020s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0009s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0012s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2019-11-15T01:32:09+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0009s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0007s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0009s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0008s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000917s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000950s ]
+ERR: syntax error, unexpected 'article_detail' (T_STRING), expecting ',' or ')'
+
+[ 2019-11-15T01:32:35+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0010s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0010s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000904s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000934s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002163s ]
+
+[ 2019-11-15T01:33:42+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0013s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001585s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2019-11-15T01:33:49+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail1.html%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0009s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-11-15T01:34:25+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0017s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000919s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000975s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2019-11-15T01:35:03+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005595s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0010s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0009s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0012s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0009s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2019-11-15T01:35:06+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0013s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0011s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-11-15T01:35:13+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0008s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2019-11-15T01:35:31+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000918s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000952s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2019-11-15T01:35:35+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0029s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0010s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0012s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0009s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0010s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2019-11-15T01:38:03+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0009s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0007s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0006s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001665s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2019-11-15T01:49:41+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0013s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000994s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2019-11-15T01:56:12+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0015s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2019-11-15T02:04:25+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0004s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2019-11-15T02:07:57+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined index: con_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 291 行.
+NOTIC: [8] Undefined index: con_value D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: con_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 291 行.
+NOTIC: [8] Undefined index: con_value D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: con_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 291 行.
+NOTIC: [8] Undefined index: con_value D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: con_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 291 行.
+NOTIC: [8] Undefined index: con_value D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+NOTIC: [8] Undefined index: con_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 291 行.
+NOTIC: [8] Undefined index: con_value D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 294 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2019-11-15T02:08:48+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0014s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001076s ]
+
+[ 2019-11-15T02:10:19+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0031s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0013s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0007s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0007s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2019-11-15T02:10:30+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0012s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 5,5   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2019-11-15T02:10:41+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2019-11-15T02:11:28+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0008s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0008s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0009s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0010s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2019-11-15T02:11:46+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0029s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0009s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0008s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2019-11-15T02:11:51+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0008s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2019-11-15T02:12:07+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0012s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2019-11-15T02:13:02+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0011s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0010s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2019-11-15T02:13:26+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2019-11-15T02:13:54+08:00 ] 127.0.0.1 /index.php/Home/Index/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2019-11-15T02:14:09+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0004s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-11-15T02:17:30+08:00 ] 127.0.0.1 /index.php/Home/Article/article/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0007s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2019-11-15T02:30:25+08:00 ] 127.0.0.1 /index.php/Home/Article/article/cat_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0004s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: cat_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\37d23b8de8b1006eeb4dee5f594561fd.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2019-11-15T02:31:48+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-11-15T02:32:00+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0012s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0012s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0010s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0009s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2019-11-15T02:32:22+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2019-11-15T02:33:32+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2019-11-15T02:33:38+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0017s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0011s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0010s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0009s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0006s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2019-11-15T02:35:27+08:00 ] 127.0.0.1 /index.php/Home/Freebies/freebies
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0007s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2019-11-15T02:51:38+08:00 ] 127.0.0.1 /index.php/Home/Freebies/freebies
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0012s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0011s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_banner` [ RunTime:0.0020s ]
+SQL: SELECT `banner_path` FROM `web_banner`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2019-11-15T02:53:52+08:00 ] 127.0.0.1 /index.php/Home/Freebies/freebies
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0014s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0009s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0009s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0009s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_banner` [ RunTime:0.0006s ]
+SQL: SELECT `banner_path` FROM `web_banner`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+NOTIC: [8] Undefined index: banner_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\c60fa446b127cba338b4c117793dc5a2.php 第 191 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001100s ]
+
+[ 2019-11-15T02:55:52+08:00 ] 127.0.0.1 /index.php/Home/Freebies/freebies
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0008s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_banner` [ RunTime:0.0010s ]
+SQL: SELECT `banner_title`,`banner_path` FROM `web_banner`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2019-11-15T03:03:15+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0014s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013430s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2019-11-15T03:03:20+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0007s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0007s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0007s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+NOTIC: [8] Undefined variable: article D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined variable: article D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined variable: article D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2019-11-15T03:08:05+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0011s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 )  [ RunTime:0.0004s ]
+
+[ 2019-11-15T03:08:19+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0010s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0005s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0009s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined index: cat_id D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined index: cat_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined index: art_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2019-11-15T03:09:49+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0017s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0009s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0007s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: cat_id D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined index: cat_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined index: art_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2019-11-15T03:20:27+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0008s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0007s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0009s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0011s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0009s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0010s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined index: cat_id D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined index: cat_name D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 181 行.
+NOTIC: [8] Undefined index: art_title D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 185 行.
+NOTIC: [8] Undefined index: art_img D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 193 行.
+NOTIC: [8] Undefined index: admin_nickname D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 196 行.
+NOTIC: [8] Undefined index: art_addtime D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2019-11-15T03:23:16+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000437s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001706s ]
+
+[ 2019-11-15T03:26:32+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0010s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0007s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0008s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined index: art_img) D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2019-11-15T03:26:38+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0016s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0006s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0006s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0006s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0009s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Undefined index: art_img) D:\laragon\www\webdesigner\Application\Runtime\Cache\Home\3273b2d4731e4d2e5a7d8474d2cdeac9.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2019-11-15T03:27:04+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0008s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 ) LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+ERR: syntax error, unexpected ')', expecting ',' or ';'
+
+[ 2019-11-15T03:27:51+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0018s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0011s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0010s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0007s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0011s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0011s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000321s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2019-11-15T03:34:27+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0004s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0008s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0005s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0005s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0007s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2019-11-15T03:43:18+08:00 ] 127.0.0.1 /index.php/Home/Article/article_detail/art_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0003s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0005s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0004s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0004s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0006s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.max_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_id = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2019-11-15T13:26:01+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0109s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0021s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0018s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0020s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0018s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0021s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0042s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002252s ]
+
+[ 2019-11-15T13:26:05+08:00 ] 127.0.0.1 /index.php/Home/Index/indexerhtj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0010s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0006s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0008s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0006s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0008s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0007s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+

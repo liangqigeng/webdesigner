@@ -1,0 +1,55 @@
+<include file="Common:header"/>
+
+<div id="main-content-block">
+     <div class="content-block">
+        <h1 class="archive-title line-title">
+            <span>{$cat1.cat_name}</span>
+		</h1>
+     </div>
+      <div class="content-block content-block-archive-list">
+       <div class="wrapper">
+           <div class="content">
+                <div class="list-list-row llr-lv">
+                  <volist name="article" id="v">
+                     <article class="list-post d-flex">
+                         <div class="article-hp-content-wrap">
+                            <div class="article-hp-content d-flex flex-wrap">
+                                    <a class="main-col-img" href="{:U('Article/article_detail/art_id/'.$v['art_id'])}" >
+                                        <img width="842" height="463" src="__UPLOAD__{$v['art_thumb']}" />
+                                    </a>
+
+                                <div class="main-col-post-info d-flex  flex-column justify-content-center">
+                                    <div class="main-col-post-info-content">
+                                         <div class="hp-cat">
+                                             <a  class="hp-category" href="{:U('Article/article/cat_id/'.$v['cat_id'])}" >{$v.cat_name}</a>
+                                         </div>
+                                        <h2 class="main-post-title">
+                                            <a href="{:U('Article/article_detail/art_id/'.$v['art_id'])}" class="anim-link">{$v.art_title}</a>
+                                        </h2>
+                                        <div class="hp-excerpt">{$v.art_summary}</div>
+                                        <div class="hp-post-pub-info">
+                                            <a  class="hp-author-avatar-lnk"  href="">
+                                                <img src="__UPLOAD__{$v.min_photo}"  alt="Paddi MacDonnell" class="hpppi-author-avatar" />
+                                            </a>
+                                            <span class="hpppi-author">
+                                                  由<a  href="{:U('Article/article_detail/art_id/'.$v['art_id'])}">{$v.admin_nickname}</a>撰写
+                                            </span>
+                                           <span class="hpppi-separator">&nbsp;|&nbsp;</span>
+                                           <span class="hppi-time">
+                                                 <span class="icon-clock-1"></span>
+                                               {$v.art_addtime|date='Y-m-d',###}
+                                           </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </article>
+                </volist>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<include file="Common:bottom"/>

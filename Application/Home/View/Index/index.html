@@ -1,0 +1,142 @@
+<include file="Common:header"/>
+<link href="__ADMIN__/css/page.css" rel="stylesheet">
+  <div id="hp-dsk">
+        <div class="content-block hp-cb-thw">
+                <div id="article-header-stub"></div>
+                <div id="article-header-wrap">
+                    <div id="article-header">
+                        <div class="content-block ah-cim ah-cim-img" style="background-image:url(__UPLOAD__{$article1['art_img']});"  >
+                                <a href="{:U('Home/Article/article_detail/art_id/'.$article1['art_id'])}"  class="ah-cv-lnk"></a>
+                            <div class="single-title-im-wrap">
+
+                                <div class="single-title-im-content clearfix">
+
+                                   <div class="single-title-im-inside clearfix">
+
+                                      <div class="hp-cat">
+                                        <a class="hp-category" href="{:U('Home/Article/article_detail/art_id/'.$article1['art_id'])}">{$article1.cat_name}</a>
+                                      </div>
+                                      <h1 class="single-title">
+                                        <span>{$article1.art_title}</span>
+                                      </h1>
+                                      <div class="stiw-pinfo clearfix">
+                                        <div class="hp-post-pub-info">
+                                            <div class="hp-post-pub-info-content">
+                                                <a  class="hp-author-avatar-lnk"  href="">
+                                                    <img src="__UPLOAD__{$article1.min_photo}"  alt="Grace Fussell" class="hpppi-author-avatar" />
+                                                </a>
+                                                <span class="hpppi-author">
+                                                     由 <a   href=" ">{$article1.admin_nickname}</a>撰写
+                                                </span>
+                                                <span class="hpppi-separator">&nbsp;|&nbsp;</span>
+                                                <span class="hppi-time">
+                                                      <span class="icon-clock-1"></span>
+                                                     {$article1.art_addtime|date='Y-m-d',###}
+                                                </span>
+                                           </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+        </div>
+      
+      
+<div id="main-content-block">
+    <div id="hp-contents-blocks">
+      <div class="content-block hp-content">
+        <div class="wrapper">
+            <div class="content">
+              <div class="d-flex flex-row flex-wrap hp-list-row list-list-row llr-0">
+                  <volist name="article" id="v">
+                     <article class="list-post d-flex">
+                         <div class="article-hp-content-wrap">
+                            <div class="article-hp-content d-flex flex-wrap">
+                                    <a class="main-col-img" href="{:U('Home/Article/article_detail/art_id/'.$v['art_id'])}" >
+                                        <img width="842" height="463" src="__UPLOAD__{$v['art_thumb']}" />
+                                    </a>
+
+                                <div class="main-col-post-info d-flex  flex-column justify-content-center">
+                                    <div class="main-col-post-info-content">
+                                         <div class="hp-cat">
+                                             <a  class="hp-category" href="{:U('Home/Article/article/cat_id/'.$v['cat_id'])}" >{$v.cat_name}</a>
+                                         </div>
+                                        <h2 class="main-post-title">
+                                            <a href="{:U('Home/Article/article_detail/art_id/'.$v['art_id'])}" class="anim-link">{$v.art_title}</a>
+                                        </h2>
+                                        <div class="hp-excerpt">{$v.art_summary}</div>
+                                        <div class="hp-post-pub-info">
+                                            <a  class="hp-author-avatar-lnk"  href="">
+                                                <img src="__UPLOAD__{$v.min_photo}"  alt="Paddi MacDonnell" class="hpppi-author-avatar" />
+                                            </a>
+                                            <span class="hpppi-author">
+                                                  由<a  href="{:U('Home/Article/article_detail/art_id/'.$v['art_id'])}">{$v.admin_nickname}</a>撰写
+                                            </span>
+                                           <span class="hpppi-separator">&nbsp;|&nbsp;</span>
+                                           <span class="hppi-time">
+                                                 <span class="icon-clock-1"></span>
+                                               {$v.art_addtime|date='Y-m-d',###}
+                                           </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </article>
+                </volist>
+              </div>
+            </div>
+        <div class="sidebar">
+              <script async src="__HOME__/pagead/js/adsbygoogle.js"></script>
+                     <ins class="adsbygoogle"
+                     style="display:inline-block;width:300px;height:600px"
+                     data-ad-client="ca-pub-5778786047058798"
+                     data-ad-slot="6337423170"></ins>
+                     <script>
+                    try{
+                  (adsbygoogle = window.adsbygoogle || []).push({});
+                }catch(ex){}
+             </script>
+        </div>
+
+        </div>
+    </div>
+          
+<div class="content-block-w">
+   <div class="popular-posts-block">
+        <div class="pop-block-title"><span>热点</span></div>
+            <div class="pop-block-diline"></div>
+                <div class="d-flex flex-row pop-posts-items">
+                <volist name="article2" id="v">
+               <article class="article-diagonal-post adp-6 ">
+                  <div class="adp-content">
+                        <a class="adp-img" href="{:U('Home/Article/article_detail/art_id'.$v['art_id'])}" >
+                            <img width="842" height="413" src="__UPLOAD__{$v.art_thumb}"  class="article-post-img wp-post-image" alt="Free Download: Newspaper Mockup" />
+                        </a>
+                         <div class="article-post-info-wrap">
+                             <div class="article-post-info">
+                                 <div class="article-post-info-cont">
+                                     <div class="hp-cat">
+                                        <a class="hp-category" href="{:U('Home/Article/article_detail/art_id'.$v['art_id'])}">{$page1.page_name}</a>
+                                     </div>
+                                      <h2 class="article-post-title">
+                                          <a href="{:U('Home/Article/article_detail/art_id'.$v['art_id'])}" class="anim-link">{$page1.page_content}</a>
+                                      </h2>
+
+                                 </div>
+                             </div>
+                        </div>
+                  </div>
+               </article>
+               </volist>
+            </div>
+        </div>
+        </div>
+                </div>
+                </div>
+                </div>
+
+<include file="Common:bottom"/>

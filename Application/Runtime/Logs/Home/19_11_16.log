@@ -1,0 +1,39 @@
+[ 2019-11-16T14:45:13+08:00 ] 127.0.0.1 /index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `web_nav` [ RunTime:0.0104s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord IN(3,4) ) ORDER BY nav_ord ASC  [ RunTime:0.0007s ]
+SQL: SELECT `nav_name`,`nav_url` FROM `web_nav` WHERE ( nav_ord between 10 and 17 ) ORDER BY nav_ord ASC  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `web_cat_art` [ RunTime:0.0020s ]
+SQL: SELECT `cat_id`,`cat_name` FROM `web_cat_art` ORDER BY cat_ord  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `web_config` [ RunTime:0.0030s ]
+SQL: SELECT `con_value` FROM `web_config` WHERE ( con_title = '备案号 ' )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `web_tag` [ RunTime:0.0036s ]
+SQL: SELECT `tag_name`,`tag_url` FROM `web_tag` ORDER BY tag_ord ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `web_page` [ RunTime:0.0027s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `page_name`,`page_content` FROM `web_page` WHERE ( page_id = 3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `web_article` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `web_article` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( is_show = 1 ) ORDER BY art_addtime DESC LIMIT 0,10   [ RunTime:0.0033s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  WHERE ( art_ord = 1 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT a.*,b.cat_id,b.cat_name,c.min_photo,c.admin_nickname FROM web_article a INNER JOIN web_cat_art as b on a.cat_id = b.cat_id INNER JOIN web_admin as c on a.admin_id = c.admin_id  LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `web_page` WHERE ( page_id =5 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001327s ]
+
